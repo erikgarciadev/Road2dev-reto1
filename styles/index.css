@@ -1,0 +1,22 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+:root {
+    --matisse : hsl(200,78%,37%);
+    --blue: hsl(223,79%,46%);
+    --red: hsl(342,89%,37%);
+    --green: hsl(160,74%,34%);
+    --black: hsl(0,0,16%);
+    --black-light: hsl(0,0,29%);
+    --white:hsl(0,0,100%);
+}
+
+/*
+breakpoints
+mobile: 375px
+desktop:1000px
+*/
