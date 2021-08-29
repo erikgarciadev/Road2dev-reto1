@@ -11,6 +11,7 @@
 @import "./components/imgArticle.css";
 @import "./components/footerInformation.css";
 @import "./components/article.css";
+@import "./components/jumper.css";
 
 /*icomoon*/
 @import "./icomoon.css";
@@ -42,6 +43,10 @@
 
 .shadow {
     box-shadow: 0px 1px 10px #999;
+}
+
+.shadow-light {
+    box-shadow: 0px 0px 20px -6px rgba(66,63,66,0.81);
 }
 
 .align-center {
