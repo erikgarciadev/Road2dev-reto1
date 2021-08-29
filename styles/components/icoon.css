@@ -1,0 +1,11 @@
+.icoon {
+    font-size: 20px;
+}
+
+.icoon.blue {
+    color: var(--blue);
+}
+
+.pointer {
+    cursor: pointer;
+}

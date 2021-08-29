@@ -1,8 +1,26 @@
+@import "./sections/footer.css";
+@import "./sections/header.css";
+@import "./sections/contact.css";
+@import "./sections/hero.css";
+@import "./sections/articles.css";
+
+/*components*/
+@import "./components/titleSection.css";
+@import "./components/icoon.css";
+@import "./components/badge.css";
+@import "./components/imgArticle.css";
+@import "./components/footerInformation.css";
+@import "./components/article.css";
+
+/*icomoon*/
+@import "./icomoon.css";
+
 *{
     margin : 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -10,13 +28,36 @@
     --blue: hsl(223,79%,46%);
     --red: hsl(342,89%,37%);
     --green: hsl(160,74%,34%);
-    --black: hsl(0,0,16%);
-    --black-light: hsl(0,0,29%);
-    --white:hsl(0,0,100%);
+    --black: hsl(0,0%,16%);
+    --black-light: hsl(0,0%,29%);
+    --white:hsl(0,0%,100%);
 }
 
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1.5em;
+    height: 100%;
+}
+
+.shadow {
+    box-shadow: 0px 1px 10px #999;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}
 /*
 breakpoints
-mobile: 375px
-desktop:1000px
+mobile: 320px - 400px
+tablets: 481px - 768px
+laptops: 769px - 1024px
+desktop:1024px - 1200px
+extralarge: 1201px - more
 */

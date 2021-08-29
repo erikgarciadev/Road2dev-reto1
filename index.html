@@ -11,6 +11,192 @@
     <link rel='stylesheet' href="./styles/index.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="wrapper">
+            <nav class="navbar">
+                <img alt='logo' style="object-fit: cover;" src='./assets/images/logo.png' height="35px" />
+                <div class="navbar__icon">
+                    <span id="icon" class="icon-burger icoon pointer"></span>
+                </div>
+                <div id='navbar__links' class="navbar__links">
+                    <a onclick="hiddenNavbarLinks()">Sobre nosotros</a>
+                    <a onclick="hiddenNavbarLinks()" href="#articles">Artículos</a>
+                    <a onclick="hiddenNavbarLinks()" href="#contact">Contáctanos</a>
+                    <a class="navbar__links__loupe"><span class="icon-loupe icoon"></span></a>
+                    <a class="navbar__links__share"><span class="icon-share icoon"></span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="wrapper">
+            <div class="hero__content">
+                <div>
+                    <p class="title">Cuales son las mejores herramientas de productividad</p>
+                </div>
+                <div class="footerInformation">
+                        <span class="badge">Productividad</span>
+                        <div class="align-center" >
+                            <p  class="footerInformation__text">Publicado el : 22 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="articles" id='articles'>
+        <div class="wrapper">
+            <div>
+                <span class="title__section blue center">Nuestros artículos más vistos</span>
+            </div>
+            <div class="articles__recent">
+                <div class="article">
+                    <div class="wrapper__imgArticle">
+                        <img class="imgArticle" alt="blog" src="./assets/images/blog.jpg" />
+                            <span class="badge padding red">Tip</span>
+                    </div>
+                    <h2 class="article__title">Nuestra salud es nuestro trabajo</h2>
+                    <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste doloribus natus atque. Omnis molestias culpa sint magni reprehenderit libero. A reprehenderit, laboriosam ipsa voluptas sunt omnis itaque veritatis saepe?</p>
+                    <div class="footerInformation">
+                        <p class="footerInformation__text bold black">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="wrapper__imgArticle">
+                        <img class="imgArticle" alt="blog" src="./assets/images/blog.jpg" />
+                            <span class="badge padding red">Tip</span>
+                    </div>
+                    <h2 class="article__title">Nuestra salud es nuestro trabajo</h2>
+                    <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste doloribus natus atque. Omnis molestias culpa sint magni reprehenderit libero. A reprehenderit, laboriosam ipsa voluptas sunt omnis itaque veritatis saepe?</p>
+                    <div class="footerInformation">
+                        <p class="footerInformation__text bold black">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span class="title__section blue center">Nuestros recientes articulos</span>
+            </div>
+            <div class="articles__principal">
+                <div class="articles__principal__content">
+                    <h2 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur ipsam, iure distinctio eum consectetur numquam voluptate, dolorum officia accusamus quaerat dolore! Neque pariatur voluptas modi ullam sequi, dolor vel.</p>
+                    <div class="footerInformation" >
+                        <p style="color:var(--white);text-align: center;margin-right: 8px;">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+            </div>
+            <div class="articles__new">
+                <div class="article">
+                    <div class="wrapper__imgArticle">
+                        <img class="imgArticle" alt="blog" src="./assets/images/blog_2.jpg" />
+                            <span class="badge padding red">Tip</span>
+                    </div>
+                    <h2 class="article__title">Nuestra salud es nuestro trabajo</h2>
+                    <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste doloribus natus atque. Omnis molestias culpa sint magni reprehenderit libero. A reprehenderit, laboriosam ipsa voluptas sunt omnis itaque veritatis saepe?</p>
+                    <div class="footerInformation">
+                        <p class="footerInformation__text bold black">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="wrapper__imgArticle">
+                        <img class="imgArticle" alt="blog" src="./assets/images/blog_2.jpg" />
+                            <span class="badge padding red">Tip</span>
+                    </div>
+                    <h2 class="article__title">Nuestra salud es nuestro trabajo</h2>
+                    <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste doloribus natus atque. Omnis molestias culpa sint magni reprehenderit libero. A reprehenderit, laboriosam ipsa voluptas sunt omnis itaque veritatis saepe?</p>
+                    <div class="footerInformation">
+                        <p class="footerInformation__text bold black">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="wrapper__imgArticle">
+                        <img class="imgArticle" alt="blog" src="./assets/images/blog_2.jpg" />
+                            <span class="badge padding green">Viajes</span>
+                    </div>
+                    <h2 class="article__title">Nuestra salud es nuestro trabajo</h2>
+                    <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste doloribus natus atque. Omnis molestias culpa sint magni reprehenderit libero. A reprehenderit, laboriosam ipsa voluptas sunt omnis itaque veritatis saepe?</p>
+                    <div class="footerInformation">
+                        <p class="footerInformation__text bold black">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="wrapper__imgArticle">
+                        <img class="imgArticle" alt="blog" src="./assets/images/blog_2.jpg" />
+                            <span class="badge padding green">Viajes</span>
+                    </div>
+                    <h2 class="article__title">Nuestra salud es nuestro trabajo</h2>
+                    <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste doloribus natus atque. Omnis molestias culpa sint magni reprehenderit libero. A reprehenderit, laboriosam ipsa voluptas sunt omnis itaque veritatis saepe?</p>
+                    <div class="footerInformation">
+                        <p class="footerInformation__text bold black">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="wrapper__imgArticle">
+                        <img class="imgArticle" alt="blog" src="./assets/images/blog_2.jpg" />
+                            <span class="badge padding red">Tip</span>
+                    </div>
+                    <h2 class="article__title">Nuestra salud es nuestro trabajo</h2>
+                    <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste doloribus natus atque. Omnis molestias culpa sint magni reprehenderit libero. A reprehenderit, laboriosam ipsa voluptas sunt omnis itaque veritatis saepe?</p>
+                    <div class="footerInformation">
+                        <p class="footerInformation__text bold black">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="wrapper__imgArticle">
+                        <img class="imgArticle" alt="blog" src="./assets/images/blog_2.jpg" />
+                            <span class="badge padding">Tech</span>
+                    </div>
+                    <h2 class="article__title">Nuestra salud es nuestro trabajo</h2>
+                    <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iste doloribus natus atque. Omnis molestias culpa sint magni reprehenderit libero. A reprehenderit, laboriosam ipsa voluptas sunt omnis itaque veritatis saepe?</p>
+                    <div class="footerInformation">
+                        <p class="footerInformation__text bold black">20 agosto 2021</p>
+                        <span class="badge">Alejandro Guevara</span>
+                    </div>
+                </div>
+            </div>    
+        </div>  
+    </section>
+    <section id='contact' class="contact">
+        <div class="wrapper">
+            <div class="contact__content">
+                <div class="contact__content__wrapper-title">
+                    <span class="title__section white">Newsletter</span>
+                </div>   
+                <p class="contact__content__text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nam magni     cupiditate iusto repudiandae iure,culpa.
+                </p>
+                <form class="contact__content__form">
+                    <input class="contact__content__form__input" placeholder="Ingrese su correo">
+                    <button class="contact__content__form__button">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__content">
+                <div class="footer__content__left">
+                    <img style="object-fit: cover;" alt='logo' src='./assets/images/logo.png' height="35px" />
+                    <p style="font-weight: bold;">Desarrollado por la comunidad para ti 💗</p>
+                </div>
+                <div class="footer__content__right">
+                    <a><span class="icon-discord icoon blue"></span></a>
+                    <a><span class="icon-instagram icoon blue"></span></a>
+                    <a><span class="icon-youtube icoon blue"></span></a>
+                    <a><span class="icon-github icoon blue"></span></a>
+                </div>
+            </div>            
+        </div>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -1,0 +1,23 @@
+.badge {
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.badge.red {
+    background-color: var(--red);
+}
+
+.badge.green {
+    background-color: var(--green);
+}
+
+.badge.black {
+    background-color: var(--black);
+}
+
+.badge.padding {
+    padding: 5px 20px;
+}

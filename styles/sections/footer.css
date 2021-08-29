@@ -1,0 +1,43 @@
+.footer {
+    background-color: var(--white);
+    padding: 20px 0px 20px 0px;
+}
+
+.footer__icon {
+    color: var(--blue);
+}
+
+.footer__content__left p {
+    margin-top: 10px;
+}
+
+.footer__content__right {
+    display: flex;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.footer__content__right a{
+    cursor: pointer;
+}
+
+.footer__content__right span {
+    font-size: 30px;
+}
+
+.footer__content__right a:not(:last-child) {
+    margin-right: 15px;
+}
+
+@media (min-width: 769px) {
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__content__right {
+        margin-top: 0px;
+    }
+}
+

@@ -1,0 +1,19 @@
+.footerInformation {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.footerInformation__text {
+    color: var(--white);
+    text-align: center;
+    margin-right: 8px;
+}
+
+.footerInformation__text.black {
+    color: var(--black-light);
+}
+
+.footerInformation__text.bold {
+    font-weight: bold;
+}

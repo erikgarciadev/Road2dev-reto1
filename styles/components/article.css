@@ -1,0 +1,14 @@
+.article {
+
+}
+
+.article__title {
+    color: var(--black-light);
+    margin-top: 30px;
+}
+
+.article__description {
+    color: var(--black-light);
+    margin: 20px 0;
+}
+

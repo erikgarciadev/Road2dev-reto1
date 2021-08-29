@@ -1,0 +1,45 @@
+.hero {
+    background-image: linear-gradient(
+        rgba(15, 0, 0, 0.6), 
+        rgba(15, 0, 0, 0.6)
+      ) ,url("./../../assets/images/hero__blogger.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.hero__content .title{
+    color : var(--white);
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.hero__content .footerInformation {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.hero__content .footerInformation__text {
+    border-right: 1px solid var(--white);
+    padding-right: 8px;
+}
+
+
+@media (min-width:769px) {
+    .hero__content .footerInformation {
+        display: flex;
+    }
+}
